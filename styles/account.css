@@ -1,0 +1,29 @@
+footer {
+  height: 123px;
+  min-height: 120px;
+  min-height: 60px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: rgb(42, 41, 41);
+  color: gray;
+  padding: 40px;
+ 
+ 
+}
+.links {
+    color: gray;
+}
+.net {
+
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #e50914;
+  letter-spacing: 0.1px;
+  padding-left: 0px;
+  text-align: left;
+}
+.ctr {
+    background-color: transparent, black;
+}

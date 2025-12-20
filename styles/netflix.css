@@ -1,0 +1,694 @@
+.netflix-logo {
+
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  color: #e50914;
+  letter-spacing: 3px;
+  padding-left: 0px;
+
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  background-image:
+  radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    ),
+   url("../images/background-imgae.jpg")
+   ;
+  background-position-x: 80%;
+    height: 60%;
+    padding: 0%;
+    margin: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.center {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 34px;
+    padding-bottom: 2px ;
+}
+.offer {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+
+.corner {
+    align-items: top-right;
+    justify-content: right;
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 1000;
+    background-color:#E50914;
+    color: white;
+    border-color: #E50914;
+    padding: 1px 1px;
+    border-radius: 5px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    align-content: center;
+}
+#null {
+    padding: 15px;
+    margin: 40px;
+    font-size: 16px;
+   
+    width: 220px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7b7777;
+    background-color: transparent;
+    color: rgb(173, 171, 171);
+    empty-cells: hide;
+    cursor: text;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+#get {
+    background-color: #E50916;
+    margin: 40px;
+    position: absolute;
+    position: center;
+    border-radius: 3px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    
+}
+
+#null2 {
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 80px;
+    margin-right: 3px;
+    width: 220px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7b7777;
+    background-color: transparent;
+    color: rgb(173, 171, 171);
+    empty-cells: hide;
+    cursor: text;
+}
+#get2 {
+    background-color: #E50916;
+    margin-top: 1.125rem;
+
+    border-radius: 3px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.arrow {
+  font-size: 1.6em;   
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.arch {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #E50914;
+}
+/*
+.number1 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: left;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number2 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number3 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number4 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+   
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number5 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+   
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number6 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    background-image: url("./images/friends.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+/*.number7 {
+    width: 90px;
+    aspect-ratio: 2 / 3;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+.number7 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number8 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.number9 {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    
+    background-position: center;
+    margin: auto;
+    text-align:bottom;
+    color: white;
+    padding-top: 130px;
+    font-size: 120px;
+    font-weight: bold;
+
+}
+*/
+.digits {
+  text-align: left;
+  font-family: "Netflix Sans", Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  color: black;
+  -webkit-text-stroke: 3px white;
+  text-shadow: 4px rgb(119, 111, 111);
+  line-height: 4;
+  
+
+}
+/* here is how i am planning to drop and hide buttom
+- i am going to give every question and answer an id. so that when the question is clicked upon, the answer section will drop down, this function will
+also handle how it will hide on click when i tap on other question.
+first lemme learn about functions on js then i will develop an algorith and turn this into a working code*/
+.containe{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: inherit;
+    gap: 12x;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+
+}.container {
+  display: flex;
+  gap: 12px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.card1 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0; 
+  background-image: url("../images/stranger-things.jpg");
+    background-size: cover; 
+}
+.card2 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0; 
+background-image: url("../images/the-reckoning.jpg");
+    background-size: cover;
+}
+.card3 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+background-image: url("../images/karate-kid-legends.jpg");
+    background-size: cover;}
+
+    .card4 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+   background-image: url("../images/troll-2.jpg");
+    background-size: cover;
+}
+
+
+  .card5 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+ background-image: url("../images/fall-for-me.jpg");
+    background-size: cover;
+  }
+
+
+  .card6 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/the-beast-in-me.jpg");
+    background-size: cover;
+  }
+
+
+
+  .card7 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/friends.jpg");
+    background-size: cover;
+  }
+
+
+  .card8 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/the-witcher.jpg");
+    background-size: cover;
+  }
+
+  .card9 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/love-wine.jpg");
+    background-size: cover;}
+    p{
+  font-family: "Inter", sans-serif;
+    }
+.reasons{
+  margin:auto;
+  padding: 40px;
+}
+.reasons-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;   
+}
+
+
+@media (min-width: 768px) {
+  .reasons-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.card svg {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  filter: drop-shadow(0 0 12px rgba(255,100,255,0.4));
+}
+.card-icon {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 64px;
+
+  filter: drop-shadow(0 0 12px rgba(255,100,255,0.45));
+}
+.card {
+  position: relative;
+  padding: 16px;
+  border-radius: 15px;
+  min-height: 160px;
+  background:
+    radial-gradient(circle at top right, rgba(214,90,255,0.18), transparent 60%),
+    linear-gradient(135deg, #1c1b2b 0%, #24234a 45%, #3a2a6a 100%);
+}
+
+
+   a {
+    color: gray !important;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.what.active .answer {
+  max-height: 300px;
+}
+
+.what-is-net {
+  width: 100%;
+  background: #2d2d2d;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+.answer{
+   padding-bottom: 9px;
+ 
+}
+.answerHow {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.how.active .answerHow {
+  max-height: 500px; 
+}
+.how {
+  padding-bottom:9px ;
+}
+.howMuch {
+  width: 100%;
+  background:#2d2d2d;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.where {
+  padding-bottom: 9px;
+}
+
+.answerWhere {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.where.active .answerWhere {
+  max-height: 500px; 
+}
+
+.whereCan {
+  width: 100%;
+  background: #2d2d2d;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.cancel {
+  padding-bottom: 9px;
+}
+.answerCancel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.cancel.active .answerCancel {
+  max-height: 500px; 
+}
+
+.cancelHow {
+  width: 100%;
+  background: #2d2d2d;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.watch{
+  padding-bottom: 9px;
+}
+.answerWatch {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.watch.active .answerWatch {
+  max-height: 500px; 
+}
+
+.watchWhat {
+  width: 100%;
+  background: #322f2f;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+
+.answerKids {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.kids.active .answerKids {
+  max-height: 500px; 
+}
+
+.kidsNet {
+  width: 100%;
+  background: #322f2f;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+.SEE {
+ 
+  margin: 40px;
+
+}
+  
+.footer-list,
+.footer-list li,
+.footer-list li::before {
+    list-style: none !important;
+    padding: 8px !important;
+    margin: 0 !important;
+    content: none !important;
+     column-count: 2;       
+    column-gap: 40px;  
+}
+
+.single-line {
+    white-space: nowrap;  
+}
+
+.lang {
+padding-top: 2px;
+padding-bottom: 2px;
+text-align: center;
+    font-size: 16px;
+    margin: 40px;
+    min-width: 120px;
+    min-height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7b7777;
+    background-color: transparent;
+    color: rgb(249, 247, 247);
+   
+   
+   
+}
+ 

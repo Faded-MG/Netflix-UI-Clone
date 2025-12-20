@@ -1,0 +1,225 @@
+.signIn {
+    justify-content: right;
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 1000;
+    background-color:#E50914;
+    color: white;
+    border-color: #E50914;
+    padding: 1px 1px;
+    border-radius: 5px;
+}
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/*
+
+header h2 {
+   color: aliceblue;
+   position: relative;
+}
+header h1 {
+        font-family: 'Bebas Neue', sans-serif;
+  color: #E50914;
+  font-size: 20px;
+  letter-spacing: 0.01px;
+    text-transform: uppercase;
+    margin: 20px;      
+
+}  
+.titles {
+  display: flex;         
+  align-items: center;    
+  gap: 10px;              
+}
+*/
+header {
+    background-color: rgb(0, 0, 0);
+    min-height: 60px;
+    margin: 0% !important;
+    padding:0% !important;
+    width: 100%;
+    left: 0;
+    right: 0;
+   
+    top: 0;
+}
+
+.titles {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between;  
+  flex-wrap: wrap;            
+}
+
+.title-text {
+  display: flex;            
+  align-items: center;
+  gap: 10px;
+}
+
+.title-text h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #E50914;
+  font-size: 20px;
+  letter-spacing: 0.01px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.buttons button {
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.joinNet {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin-right: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signIn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin: 14px;
+}
+
+.joinNet {
+  background-color: transparent;
+  border: 1px solid #767171;
+  color: #fff;
+}
+.buttons {
+  display: flex;         
+  gap: 10px;             
+}
+.no-underline {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 100;
+}
+.exe {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 300 
+}
+h2 {
+    margin-top: 100px;
+    margin-left: 6px;
+   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 31px;
+}
+.issue {
+    width: 585px;
+    height: 30px;
+     border-radius: 5px;
+    border: 1px solid #aca3a3;
+}
+a {
+ color:rgb(0, 0, 0)
+ 
+}
+.links {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+       list-style: none !important;
+}
+footer {
+  height: auto;
+  margin: 0 !important;
+  min-height: 120px;
+  min-height: 60px;
+  margin: 0% !important;
+  padding:0% !important;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: repeating-linear-gradient( rgb(137, 31, 31), rgb(15, 15, 15));
+ 
+
+}
+
+
+.quicks {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400; 
+}
+.dropdown {
+    color:#767171;
+    width: 230px;
+    padding: 12px;
+    margin-left: 9px;
+    margin-top: 37px;    
+    height: 40px;
+    background-color: transparent;
+    border-color: #767171;
+    border-radius: 1px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color:#c6bebe;
+  align-items: left;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 50px
+}
+
+.contact-section {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+
+.contact-container {
+  max-width: 900px;      
+  margin: 0 auto;
+  text-align: left;     
+
+ 
+  padding: clamp(0rem, 4vw, 3rem);
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  width: fit-content;
+  padding: 0.75rem 1.5rem;
+}
