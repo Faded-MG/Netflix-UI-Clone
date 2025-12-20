@@ -319,12 +319,48 @@ first lemme learn about functions on js then i will develop an algorith and turn
 }.container {
   display: flex;
   gap: 12px;
-
+   
   overflow-x: auto;
   overflow-y: hidden;
 
   scroll-behavior: smooth;
   padding-bottom: 10px;
+}
+.carousel-wrapper {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0; 
+  transition: opacity 0.3s;
+  z-index: 20;
+}
+
+.carousel-wrapper:hover .arrow {
+  opacity: 1; 
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+
+
+.container {
+  overflow-x: hidden;
 }
 
 .card1 {
@@ -333,90 +369,120 @@ first lemme learn about functions on js then i will develop an algorith and turn
   background: #333;
   border-radius: 6px;
   flex-shrink: 0; 
+    transition: background 0.3s, transform 0.2s;
   background-image: url("../images/stranger-things.jpg");
     background-size: cover; 
 }
+.card1:hover {
+ 
+  transform: scale(1.05);}
 .card2 {
   min-width: 180px;   
   height: 260px;
   background: #333;
   border-radius: 6px;
   flex-shrink: 0; 
+   transition: background 0.3s, transform 0.2s;
 background-image: url("../images/the-reckoning.jpg");
     background-size: cover;
 }
+.card2:hover {
+ 
+  transform: scale(1.05);}
 .card3 {
   min-width: 180px;   
   height: 260px;
   background: #333;
   border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
   flex-shrink: 0;
 background-image: url("../images/karate-kid-legends.jpg");
     background-size: cover;}
-
+.card3:hover {
+ 
+  transform: scale(1.05);}
     .card4 {
   min-width: 180px;   
   height: 260px;
   background: #333;
   border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
   flex-shrink: 0;
    background-image: url("../images/troll-2.jpg");
     background-size: cover;
 }
 
-
+.card4:hover {
+ 
+  transform: scale(1.05);}
   .card5 {
   min-width: 180px;   
   height: 260px;
   background: #333;
+   transition: background 0.3s, transform 0.2s;
   border-radius: 6px;
   flex-shrink: 0;
  background-image: url("../images/fall-for-me.jpg");
     background-size: cover;
   }
-
+.card5:hover {
+ 
+  transform: scale(1.05);}
 
   .card6 {
   min-width: 180px;   
   height: 260px;
   background: #333;
   border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
   flex-shrink: 0;
   background-image: url("../images/the-beast-in-me.jpg");
     background-size: cover;
   }
 
-
+.card6:hover {
+ 
+  transform: scale(1.05);}
 
   .card7 {
   min-width: 180px;   
   height: 260px;
   background: #333;
+   transition: background 0.3s, transform 0.2s;
   border-radius: 6px;
   flex-shrink: 0;
   background-image: url("../images/friends.jpg");
     background-size: cover;
   }
-
+.card7:hover {
+ 
+  transform: scale(1.05);}
 
   .card8 {
   min-width: 180px;   
   height: 260px;
   background: #333;
+   transition: background 0.3s, transform 0.2s;
   border-radius: 6px;
   flex-shrink: 0;
   background-image: url("../images/the-witcher.jpg");
     background-size: cover;
   }
-
+.card8:hover {
+ 
+  transform: scale(1.05);}
   .card9 {
   min-width: 180px;   
   height: 260px;
   background: #333;
   border-radius: 6px;
   flex-shrink: 0;
+   transition: background 0.3s, transform 0.2s;
   background-image: url("../images/love-wine.jpg");
     background-size: cover;}
+    .card9:hover {
+ 
+  transform: scale(1.05);}
     p{
   font-family: "Inter", sans-serif;
     }

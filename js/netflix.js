@@ -72,3 +72,12 @@ kids.forEach(item => {
     icon.textContent = item.classList.contains("active") ? "x" : "+";
   });
 });
+const container = document.querySelector('.container');
+const cardWidth = document.querySelector('.card').offsetWidth + 12; // 12px gap
+
+function scrollCarousel(direction) {
+  container.scrollBy({
+    left: direction * cardWidth,
+    behavior: 'smooth'
+  });
+}
