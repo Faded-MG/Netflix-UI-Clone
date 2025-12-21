@@ -1,0 +1,203 @@
+header {
+    background-color: rgb(0, 0, 0);
+    min-height: 60px;
+    margin: 0% !important;
+    padding:0% !important;
+    width: 100%;
+    left: 0;
+    right: 0;
+   
+    top: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 3px;
+}
+
+.titles {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between;  
+  flex-wrap: wrap;            
+}
+
+.title-text {
+  display: flex;            
+  align-items: center;
+  gap: 10px;
+}
+
+.title-text h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #E50914;
+  font-size: 20px;
+  letter-spacing: 0.01px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.buttons button {
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.joinNet {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin-right: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signIn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin: 14px;
+}
+
+.joinNet {
+  background-color: transparent;
+  border: 1px solid #767171;
+  color: #fff;
+}
+.buttons {
+  display: flex;         
+  gap: 10px;             
+}
+.no-underline {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 100;
+}
+.exe {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 300 
+}
+
+
+footer {
+  height: auto;
+  min-height: 120px;
+  min-height: 60px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: repeating-linear-gradient( rgb(137, 31, 31), rgb(15, 15, 15));
+  color: aliceblue;
+  padding-top: 10px;
+ 
+}
+
+.contactUs{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+.quicks {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400; 
+}
+.dropdown {
+    color:#767171;
+    width: 230px;
+    padding: 12px;
+    margin-left: 9px;
+    margin-top: 37px;    
+    height: 40px;
+    background-color: transparent;
+    border-color: #767171;
+    border-radius: 1px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color:#c6bebe;
+  align-items: left;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 50px
+}
+.help {
+    text-align: left;
+    padding-left:12px;
+    padding-top:21px;
+}
+.contactUs {
+    width: 182px;
+    height: 32px;
+    border-radius: 6px;
+    border: #c6bebe;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+}   
+a {
+    text-decoration: none;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3px;
+  padding-bottom: 80px;
+  
+}
+
+
+.relatedArticles {
+  padding-top: 5px !important;
+  border-top: 6px solid rgb(230, 17, 17) !important; /* thin red line at top */
+  background-color: white;
+  border-color: 4px solid black !important;
+  padding: 1rem;
+  border-radius: 6px;
+  
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  max-width: 550px;
+}
+
+
+@media (min-width: 968px) {
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .relatedArticles {
+    margin: 0;
+    align-self: start; 
+  }
+}
+
+
+@media (max-width: 867px) {
+  .relatedArticles {
+    order: 99; 
+    width: 100%;
+  }}
