@@ -41,13 +41,13 @@ const noticeCountry = document.getElementById('noticeCountry');
 const currentCountry = document.getElementById('currentCountry');
 const contents = document.querySelectorAll('.country-content');
 
-// Function to update page when country is selected
+
 function updateCountry(selectedCountry) {
-  // Update notice message
+
   noticeCountry.textContent = selectedCountry;
   currentCountry.textContent = selectedCountry;
 
-  // Show matching content, hide others
+
   contents.forEach(section => {
     if (section.dataset.country === selectedCountry) {
       section.classList.add('active');
@@ -57,13 +57,12 @@ function updateCountry(selectedCountry) {
   });
 }
 
-// Event listener for dropdown change
 dropdown.addEventListener('change', (e) => {
   updateCountry(e.target.value);
 });
 
-// Initial page load: set default country
+
 window.addEventListener('DOMContentLoaded', () => {
-  const defaultCountry = dropdown.value; // first option
+  const defaultCountry = dropdown.value; 
   updateCountry(defaultCountry);
 });
