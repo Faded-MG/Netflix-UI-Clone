@@ -25,13 +25,15 @@
  <p> ← <a href="netflix.html" class="backHome">  Back to Help Home</a> </p>
 
 <hr>
-You're currently viewing information intended for Brazil, which may not be applicable to you. Select your country below.<br>
-Currently viewing information for:
+<p id="noticeMessage">You're currently viewing information intended for <span id="noticeCountry"></span>, which may not be applicable to you. Select your country below.<br>
+Currently viewing information for: <span id="currentCountry"></span>
+</p>
+
 <label for="country" class="dropdown"></label>
 
-<select id="country" name="country" class="dropdown">
-  <option value="en" class="dropdown">Ethiopia</option>
-  <option value="en" class="dropdown"> Brazil</option>
+<select id="countryDropdown" name="country" class="dropdown">
+  <option value="Ethiopia" class="dropdown">Ethiopia</option>
+  <option value="Brazil" class="dropdown"> Brazil</option>
 
 </select>
 <hr>
@@ -40,9 +42,10 @@ Currently viewing information for:
 </p>
 <p>If you have a request for a TV show or movie, see <span style="color:#e50914;">Request TV shows or movies</span>.
 </p>
-<h4>
-Service provider:</h4>
 
+<div class="country-content" data-country="Ethiopia">
+    <h4>
+Service provider:</h4>
 Netflix International B.V<br>
 Karperstraat 8-<br>
 1075 KZ Amsterdam, the herlands<br>
@@ -56,8 +59,23 @@ Karperstraat 8-10<br>
 1075 KZ Amsterdam, the Netherlands<br>
 KvK: 62266519<br>
 VAT: NL853746333B01<br>
-
-
+</div>
+<div class="country-content" data-country="Brazil">
+<h4>Contractual partner and point of contact for Netflix members:</h4>
+<ul>
+<li>Netflix Entretenimento Brasil Ltda.</li>
+<li>Avenida Rebouças nº 3.625, Andar Térreo</li>
+<li>Pinheiros, CEP 05401-400</li>
+<li>Cidade de São Paulo, Estado de São Paulo, Brazil</li>
+</ul>
+<h4>Data Controller:</h4>
+<ul>
+<li>Netflix Entretenimento Brasil Ltda.</li>
+<li>Avenida Rebouças nº 3.625, Andar Térreo</li>
+<li>Pinheiros, CEP 05401-400</li>
+<li>Cidade de São Paulo, Estado de São Paulo, Brazil</li>
+</ul>
+    </div>
 <hr class="hr">
 <p><strong> Was this article helpful?</strong>
 <span style="text-decoration: underline;"> Yes</span> <span style="text-decoration: underline;"> No</span></p>
@@ -154,5 +172,7 @@ How to create, edit, or delete profiles</p>
 <p><a class="footerLinks"href="corporate.html"> Corporate Information</a></p>
 
 </footer>
+<script src="js/corporate.js"></script>
+
 </body>
 </html>
