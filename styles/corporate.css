@@ -1,4 +1,4 @@
-.signIn {
+signIn {
     justify-content: right;
     position: absolute;
     width: 80px;
@@ -158,67 +158,59 @@ footer {
  text-decoration: underline;
 }
 
-.print-btn {
-  background-color: #e4e2e2; 
-  color: rgb(0, 0, 0);             
-  border: none;
-  border-radius: 3px;        
-  padding: 11px 20px;
-  font-size: 18px;
-  font-weight:400;
-  cursor: pointer;
 
-  align-items: center;
-  gap: 8px;                  
-  transition: background 0.3s, transform 0.2s;
-  top: 12px; right: 12px; left: 120px; 
-  display: inline-flex;      
-                        
-  margin: 20px;               
- 
-
-}
-
-.print-btn:hover {
-  background-color: #acacac; 
-   
-}
-
-.print-btn i {
-  font-size: 20px;          
-}
-
-.noticeList {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
-}
-
-
-
-
-
-.Notices.active .noticeList {
-  max-height: 900px;
-}
-
-.Notice {
-  width: 100%;
-  background: transparent;
-  color: #363535;
-  border-color: #767171;
-  border-radius: 1px;
-  
-  padding: 1rem;
-  font-size: 1.1rem;
-  text-align: left;
-  cursor: pointer;
-
+.content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3px;
+  padding-bottom: 80px;
+  
 }
 
-.icon {
-  font-size: 1.5rem;
+
+.relatedArticles {
+  padding-top: 5px !important;
+  border-top: 6px solid rgb(230, 17, 17) !important; /* thin red line at top */
+  background-color: white;
+  border-color: 4px solid black !important;
+  padding: 1rem;
+  border-radius: 6px;
+  
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  max-width: 550px;
 }
+
+
+@media (min-width: 968px) {
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .relatedArticles {
+    margin: 0;
+    align-self: start; 
+  }
+}
+
+
+@media (max-width: 867px) {
+  .relatedArticles {
+    order: 99; 
+    width: 100%;
+  }
+}
+.contactUs {
+    width: 182px;
+    height: 32px;
+    border-radius: 6px;
+    border: #c6bebe;
+    font-weight: 700;
+    font-size: 16px;
+} 
