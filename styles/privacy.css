@@ -182,8 +182,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}*/
-
+}
+*/
 .toc-button {
   position: fixed;
   top: 20px;
@@ -198,20 +198,7 @@ body {
   z-index: 1000;
 }
 
-.toc {
-  position: fixed;
-  top: 60px;
-  right: 20px;
-  width: 300px;
-  max-height: 80vh;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow-y: auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-  display: none;
-  z-index: 999;
-}
+
 
 .toc ul {
   list-style: none;
@@ -245,3 +232,44 @@ main {
 h1 {
   margin-top: 60px;
 }
+
+.toc {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+  display: none;
+  background: #efefef;
+  border: 1px solid #efefef;
+  border-radius: 9px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.toc li {
+  padding: 8px;
+}
+
+.has-sub {
+  position: relative;
+}
+
+.sub-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.sub {
+  display: none;
+  padding-left: 20px;
+}
+
