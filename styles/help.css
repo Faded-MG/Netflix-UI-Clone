@@ -1,0 +1,180 @@
+header {
+    background-color: white;
+    min-height: 60px;
+    margin: 0% !important;
+    padding:0% !important;
+    width: 100%;
+    left: 0;
+    right: 0;
+   
+    top: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 3px;
+}
+
+.titles {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between;  
+  flex-wrap: wrap;            
+}
+
+.title-text {
+  display: flex;            
+  align-items: center;
+  gap: 10px;
+}
+
+.title-text h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #E50914;
+  font-size: 20px;
+  letter-spacing: 0.01px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.buttons button {
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.joinNet {
+  background-color: #000000;
+  border: black;
+  color: black;
+  margin-right: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signIn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin: 14px;
+}
+
+.joinNet {
+  background-color: transparent;
+  border: 1px solid #767171;
+  color: #fff;
+}
+.buttons {
+  display: flex;         
+  gap: 10px;             
+}
+.no-underline {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 100;
+}
+.exe {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 300 
+}
+
+
+footer {
+  height: auto;
+  min-height: 120px;
+  min-height: 60px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  color: aliceblue;
+  padding-top: 10px;
+ 
+}
+
+.contactUs{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+.quicks {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400; 
+}
+.dropdown {
+    color:#767171;
+    width: 230px;
+    padding: 12px;
+    margin-left: 9px;
+    margin-top: 37px;    
+    height: 40px;
+    background-color: transparent;
+    border-color: #767171;
+    border-radius: 1px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color:#c6bebe;
+  align-items: left;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 50px
+}
+.help {
+    text-align: left;
+    padding-left:12px;
+    padding-top:21px;
+}
+.contactUs {
+    width: 182px;
+    height: 32px;
+    border-radius: 6px;
+    border: #c6bebe;
+    font-weight: 700;
+    font-size: 16px;
+}   
+
+.midWay {
+    background: linear-gradient( 90deg rgb(6, 14, 14), white);
+}
+
+.help {
+    position: fixed;
+    border-radius: 4px;
+
+    border-width: 3px;
+    border-image: linear-gradient( 45deg, orange, pink, purple, blue); 
+    padding: 20px;
+}
+
+.quicks {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400; 
+}
+.dropdown {
+    color:#767171;
+    width: 230px;
+    padding: 12px;
+    margin-left: 9px;
+    margin-top: 37px;    
+    height: 40px;
+    background-color: transparent;
+    border-color: #767171;
+    border-radius: 1px;
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
