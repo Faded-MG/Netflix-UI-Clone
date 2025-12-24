@@ -1,19 +1,37 @@
 .netflix-logo {
-
+    position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
   font-family: 'Bebas Neue', Arial, sans-serif;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 500;
   color: #e50914;
   letter-spacing: 3px;
   padding-left: 0px;
-
+  align-items: flex-end;
 }
 body {
+  
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+ .hero{ 
+  padding-top: 80px;
+  width: 100vw; 
+  height: 100vh;
+
+  background-size: cover; 
+  background-position: center; 
+
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
   background-image:
   radial-gradient(
       circle at center,
@@ -23,15 +41,15 @@ body {
    url("../images/background-imgae.jpg")
    ;
   background-position-x: 80%;
-    height: 60%;
+
     padding: 0%;
-    margin: auto;
-  background-position: top;
+  
+
   background-repeat: no-repeat;
 }
 .center {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0;
     font-size: 34px;
     padding-bottom: 2px ;
 }
@@ -42,33 +60,40 @@ body {
 
 }
 
-
+ 
 .corner {
-    align-items: top-right;
-    justify-content: right;
-    position: absolute;
-    width: 80px;
-    text-align: center;
-    height: 30px;
-    top: 0;
-    right: 0;
-    margin: 20px;
-    z-index: 1000;
-    background-color:#E50914;
-    color: white;
-    border-color: #E50914;
-    padding: 1px 1px;
-    border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 80px;
+  height: 32px;
+  background-color: #E50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+
+
 p {
     font-size: 18px;
     line-height: 1.6;
     margin: 20px;
     align-content: center;
 }
+
+.form-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 #null {
     padding: 15px;
-    margin: 40px;
+    
     font-size: 16px;
    
     width: 220px;
@@ -79,14 +104,12 @@ p {
     color: rgb(173, 171, 171);
     empty-cells: hide;
     cursor: text;
-   /* display: flex;
-    justify-content: center;
-    align-items: center;*/
+
 }
 #get {
     background-color: #E50916;
     margin: 40px;
-    position: absolute;
+
     position: center;
     border-radius: 3px;
     border: none;
