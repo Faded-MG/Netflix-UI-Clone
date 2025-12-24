@@ -16,7 +16,28 @@ html, body {
 
 
 main {
-  flex: 1; 
+  flex: 1;                 
+
+  background-size: cover;  /* stretch properly */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image:
+  radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+   url("../images/accounts.jpg")
+   ;
+  background-position-x: 80%;
+     background-size: cover;
+
+    padding: 0%;
+   
+  background-position: top;
+  background-repeat: no-repeat;
+   display: flex;
+  
 }
 
 footer {
@@ -38,11 +59,10 @@ footer {
   letter-spacing: 0.1px;
   padding-left: 0px;
   text-align: left;
-}
+}/*
 .ctr {
 
-    width: 500 px;
-    height: 152 px;
+    
   background-color: rgba(0, 0, 0, 0.75);
   padding-left: 60px;
   padding-right: 70px;
@@ -51,34 +71,33 @@ footer {
   border-radius: 4px;
   margin-top: 80px;
   margin-bottom: 60px;
- 
- 
- 
+  margin-right: 90px;
+}*/
+.ctr {
+  width: 500px;
+  max-width: 90vw;
+
+  background-color: rgba(0, 0, 0, 0.75);
+
+  padding: 50px 50px 50px 50px;
+
+  border-radius: 4px;
+  margin: 90px auto 90px; 
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
 
 }
+
 body {
 
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  background-image:
-  radial-gradient(
-      circle at center,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-   url("../images/accounts.jpg")
-   ;
-  background-position-x: 80%;
-     background-size: cover;
-
-    padding: 0%;
-   
-  background-position: top;
-  background-repeat: no-repeat;
-   display: flex;
-  flex-direction: column;
+ flex-direction: column;
 }
 .signIn {
   background-color: transparent;
@@ -86,19 +105,19 @@ body {
   height: 48px;
 
   color: #fff;
-
+  padding-left: 12px;
   border-color: gray;
   border-width: 1px;
   border-radius: 4px;
 
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 
   cursor: cursor;
 } 
 .pass {
   background-color: transparent;
-
+  padding-left: 12px;
   width: 314px;
   height: 48px;
 
@@ -109,10 +128,10 @@ body {
   border-radius: 4px;
 
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 
   cursor: pointer;
-  margin-bottom: 12px;
+
 
 }
 .Red {
@@ -124,14 +143,16 @@ body {
 
   background-color: #e50914;
   color: #fff;
-
+  display: flex;
+  align-items: center;
   border: none;
   border-radius: 4px;
-
+  padding-left: 132px;;
   font-size: 16px;
   font-weight: 00;
 
   cursor: pointer;
+  
 }
 
 .Red:hover {
@@ -139,7 +160,7 @@ body {
 }
 .Gray {
 
-     background-color: rgba(51, 51, 51, 0.9);
+  background-color: rgba(51, 51, 51, 0.9);
    
   width: 319px;
   height: 38px;
