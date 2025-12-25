@@ -77,10 +77,13 @@ body {
 
 
 p {
-    font-size: 18px;
-    line-height: 1.6;
+   
+
     margin: 20px;
     align-content: center;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  line-height: 1.6;
+
 }
 
 .form-row {

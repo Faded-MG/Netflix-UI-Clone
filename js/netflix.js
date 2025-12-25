@@ -73,7 +73,7 @@ kids.forEach(item => {
   });
 });
 const container = document.querySelector('.container');
-const cardWidth = document.querySelector('.card').offsetWidth + 12; // 12px gap
+const cardWidth = document.querySelector('.card').offsetWidth + 12; 
 
 function scrollCarousel(direction) {
   container.scrollBy({

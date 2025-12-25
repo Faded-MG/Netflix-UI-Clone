@@ -1,0 +1,287 @@
+header {
+    background-color: rgb(0, 0, 0);
+    min-height: 60px;
+    margin: 0% !important;
+    padding:0% !important;
+    width: 100%;
+    left: 0;
+    right: 0;
+   
+    top: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 3px;
+}
+
+.titles {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between;  
+  flex-wrap: wrap;            
+}
+
+.title-text {
+  display: flex;            
+  align-items: center;
+  gap: 10px;
+}
+
+.title-text h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #E50914;
+  font-size: 20px;
+  letter-spacing: 0.01px;
+    text-transform: uppercase;
+    margin: 16px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.buttons button {
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.joinNet {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin-right: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signIn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  margin: 14px;
+}
+
+.joinNet {
+  background-color: transparent;
+  border: 1px solid #767171;
+  color: #fff;
+}
+.buttons {
+  display: flex;         
+  gap: 10px;             
+}
+.no-underline {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 100;
+}
+.exe {
+    text-decoration: none;
+    color:#fff;
+     font-family: Arial, sans-serif;
+     font-weight: 300 
+}
+
+
+
+.container {
+  display: flex;
+  gap: 12px;
+   
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+.carousel-wrapper {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0; 
+  transition: opacity 0.3s;
+  z-index: 20;
+}
+
+.carousel-wrapper:hover .arrow {
+  opacity: 1; 
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+
+
+.container {
+  overflow-x: hidden;
+}
+
+.card1 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0; 
+    transition: background 0.3s, transform 0.2s;
+  background-image: url("../images/stranger-things.jpg");
+    background-size: cover; 
+}
+.card1:hover {
+ 
+  transform: scale(1.05);}
+.card2 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0; 
+   transition: background 0.3s, transform 0.2s;
+background-image: url("../images/the-reckoning.jpg");
+    background-size: cover;
+}
+.card2:hover {
+ 
+  transform: scale(1.05);}
+.card3 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
+  flex-shrink: 0;
+background-image: url("../images/karate-kid-legends.jpg");
+    background-size: cover;}
+.card3:hover {
+ 
+  transform: scale(1.05);}
+    .card4 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
+  flex-shrink: 0;
+   background-image: url("../images/troll-2.jpg");
+    background-size: cover;
+}
+
+.card4:hover {
+ 
+  transform: scale(1.05);}
+  .card5 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+   transition: background 0.3s, transform 0.2s;
+  border-radius: 6px;
+  flex-shrink: 0;
+ background-image: url("../images/fall-for-me.jpg");
+    background-size: cover;
+  }
+.card5:hover {
+ 
+  transform: scale(1.05);}
+
+  .card6 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+   transition: background 0.3s, transform 0.2s;
+  flex-shrink: 0;
+  background-image: url("../images/the-beast-in-me.jpg");
+    background-size: cover;
+  }
+
+.card6:hover {
+ 
+  transform: scale(1.05);}
+
+  .card7 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+   transition: background 0.3s, transform 0.2s;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/friends.jpg");
+    background-size: cover;
+  }
+.card7:hover {
+ 
+  transform: scale(1.05);}
+
+  .card8 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+   transition: background 0.3s, transform 0.2s;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-image: url("../images/the-witcher.jpg");
+    background-size: cover;
+  }
+.card8:hover {
+ 
+  transform: scale(1.05);}
+  .card9 {
+  min-width: 180px;   
+  height: 260px;
+  background: #333;
+  border-radius: 6px;
+  flex-shrink: 0;
+   transition: background 0.3s, transform 0.2s;
+  background-image: url("../images/love-wine.jpg");
+    background-size: cover;}
+    .card9:hover {
+ 
+  transform: scale(1.05);}
+    p{
+  font-family: "Inter", sans-serif;
+    }
+    
+.footer-list,
+.footer-list li,
+.footer-list li::before {
+    list-style: none !important;
+    padding: 8px !important;
+    margin: 0 !important;
+    content: none !important;
+     column-count: 2;       
+    column-gap: 40px;  
+}
+
+.single-line {
+    white-space: nowrap;  
+}
+
+footer {
+    background-color: black;
+    color: gray;
+
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
