@@ -1,0 +1,91 @@
+.bigRed {
+   
+  border: none;
+  height: 40px;
+  width: 100%;
+  background: transparent;
+  margin-left: 0%;
+  border-top: 47px solid red;
+
+
+
+}
+body {
+    color: black;
+      font-family: 'Inter', sans-serif !important;
+}
+.head {
+    position: fixed;
+    color: aquamarine;
+    width: 100%;
+    height: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image:
+  
+   url("../images/invester.png")
+   ;
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Text container */
+.hero-content {
+  position: relative;
+  max-width: 900px;
+  padding: 0 60px;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e5e5e5;
+  max-width: 750px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 0 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+.nas {
+    background-color: black;
+    color: white;
+}
