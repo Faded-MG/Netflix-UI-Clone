@@ -8,3 +8,4 @@ function scrollCarousel(direction) {
     behavior: 'smooth'
   });
 }
+/*the scroll button is not working here, i need to fix the bug*/
