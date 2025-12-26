@@ -1,11 +1,18 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('.container');
+  const card = document.querySelector('.card');
 
-const container = document.querySelector('.container');
-const cardWidth = document.querySelector('.card').offsetWidth + 12; 
+  if (!container || !card) return;
 
-function scrollCarousel(direction) {
-  container.scrollBy({
-    left: direction * cardWidth,
-    behavior: 'smooth'
-  });
-}
-/*the scroll button is not working here, i need to fix the bug*/
+  const cardWidth = card.offsetWidth + 12;
+
+  function scrollCarousel(direction) {
+    container.scrollBy({
+      left: direction * cardWidth,
+      behavior: 'smooth'
+    });
+  }
+
+  // expose function if using inline onclick
+  window.scrollCarousel = scrollCarousel;
+});
