@@ -1,18 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const container = document.querySelector('.container');
-  const card = document.querySelector('.card');
+  function scrollCarousel(containerSelector, direction) {
+    const containers = document.querySelectorAll(containerSelector);
+    if (!containers.length) return;
 
-  if (!container || !card) return;
+    containers.forEach(container => {
+      const card = container.querySelector('.card');
+      if (!card) return;
 
-  const cardWidth = card.offsetWidth + 12;
-
-  function scrollCarousel(direction) {
-    container.scrollBy({
-      left: direction * cardWidth,
-      behavior: 'smooth'
+      const cardWidth = card.offsetWidth + 12; 
+      container.scrollBy({
+        left: direction * cardWidth,
+        behavior: 'smooth'
+      });
     });
   }
 
-  // expose function if using inline onclick
   window.scrollCarousel = scrollCarousel;
 });
