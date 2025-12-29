@@ -57,7 +57,7 @@ footer {
   font-weight: 700;
   color: #e50914;
   letter-spacing: 0.1px;
-  padding-left: 0px;
+  padding-left: 1rem;
   text-align: left;
 }/*
 .ctr {
@@ -74,20 +74,27 @@ footer {
   margin-right: 90px;
 }*/
 .ctr {
-  width: 500px;
-  max-width: 90vw;
+  width: 100%;
+max-width: 480px;
 
   background-color: rgba(0, 0, 0, 0.75);
 
   padding: 50px 50px 50px 50px;
 
   border-radius: 4px;
-  margin: 90px auto 90px; 
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 55px;
+padding-bottom: 12px;
+box-sizing: border-box;
+
 
   box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 
 }
 
@@ -98,12 +105,14 @@ body {
     margin: 0;
     padding: 0;
  flex-direction: column;
+ 
 }
 .signIn {
   background-color: transparent;
    width: 314px;
   height: 48px;
-
+  margin-top: 0%;
+  margin-bottom: 0%;
   color: #fff;
   padding-left: 12px;
   border-color: gray;
@@ -120,7 +129,8 @@ body {
   padding-left: 12px;
   width: 314px;
   height: 48px;
-
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
   color: #fff;
 
   border-color: gray;
@@ -137,6 +147,8 @@ body {
 .Red {
   background-color:#e50914;
   height: 55px;
+   margin-top: 0px !important;
+  margin-bottom: 0px !important;
 
   width: 319px;
   height: 38px;
@@ -164,7 +176,8 @@ body {
    
   width: 319px;
   height: 38px;
-
+   margin-top: 0px !important;
+  margin-bottom: 0px !important;
 
   color: #fff;
 
@@ -179,4 +192,7 @@ body {
 
 .remember {
   text-align: center;
+}
+h1 {
+  text-align: left !important;
 }
