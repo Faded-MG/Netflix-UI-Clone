@@ -10,6 +10,11 @@ header {
     top: 0;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   padding: 3px;
@@ -167,6 +172,17 @@ h1 {
    .blurred{
     text-align: center;
    } 
+   footer {
+  background: #111;
+  color: white;
+  text-align: center;
+
+  
+  width: 100%;
+ 
+
+ 
+}
 .footer-list,
 .footer-list li,
 .footer-list li::before {
