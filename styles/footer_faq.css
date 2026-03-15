@@ -1,22 +1,31 @@
 
 
 footer {
-  height: auto;
-  min-height: 120px;
-  min-height: 60px;
   width: 100%;
-  left: 0;
-  right: 0;
-  background: repeating-linear-gradient( rgb(137, 31, 31), rgb(15, 15, 15));
-  color: aliceblue;
-  padding-top: 10px;
+  max-height: 95vh;
+  padding-top: 3%;
  
-}
 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background-image: url("../images/footerBackground copy.png");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  footer {
+    background-position: center top;
+    padding-top: 40px;
+  }
+}
 .contactUs{
     background-color: white;
     color: black;
-    font-weight: 400;
+    font-weight: 200;
 }
 .quicks {
     font-family: 'Bebas Neue', Arial, sans-serif;
@@ -40,11 +49,11 @@ footer {
   color:#c6bebe;
   align-items: left;
   font-family: 'Bebas Neue', Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 13px;
-  padding-top: 40px;
-  margin-top: 40px;
-  padding-bottom: 50px
+  padding-top: 3px;
+  margin-top: 10px;
+  padding-bottom: 5px
 }
 .help {
     text-align: left;
@@ -59,4 +68,10 @@ footer {
     font-weight: 700;
     font-size: 16px;
 }   
-    
+.con {
+    text-decoration: none;
+    color: black;
+}
+p {
+    color: white;
+}
