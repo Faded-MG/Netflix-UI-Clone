@@ -11,8 +11,11 @@ header {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Bebas Neue', Arial, sans-serif;
   padding: 3px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .titles {
