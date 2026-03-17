@@ -1,3 +1,4 @@
+/*
 header {
     background-color: rgb(0, 0, 0);
     min-height: 60px;
@@ -10,13 +11,6 @@ header {
     top: 0;
 }
 
-body {
-  font-family: 'Bebas Neue', Arial, sans-serif;
-  padding: 3px;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 100;
-}
 
 .titles {
   display: flex;              
@@ -89,6 +83,14 @@ body {
     color:#fff;
      font-family: Arial, sans-serif;
      font-weight: 300 
+}
+*/
+body {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  padding: 3px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 100;
 }
 
 /*
@@ -174,7 +176,14 @@ list-style: none !important;
 }
 
 
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
+html, footer {
+  margin: 0;
+  height: 100%;
+}
 
 .content {
   display: flex;
